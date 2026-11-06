@@ -16,7 +16,7 @@ Tharun Tech Hub provides educational content about:
 [Visit Tharun Tech Hub](https://tharunsaisiddha.github.io/tharun-tech-hub./)
 
 **Live Website URL:**  
-https://tharunsaisiddha.github.io/tharun-tech-hub/
+https://tharunsaisiddha.github.io/tharun-tech-hub./
 
 ## Technologies Used
 
