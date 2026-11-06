@@ -1,25 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Contact | Tharun Tech Hub</title>
+
 <meta name="description" content="Contact Tharun Tech Hub with questions, feedback or collaboration enquiries.">
+<meta property="og:title" content="Contact | Tharun Tech Hub">
+<meta property="og:description" content="Contact Tharun Tech Hub with questions, feedback or collaboration enquiries.">
+<meta property="og:type" content="website">
 <meta name="theme-color" content="#0b0e17">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
+<!-- NAVIGATION -->
 <header>
 <div class="wrap nav">
-<a class="logo" href="index.html">Tharun <span>Tech Hub</span></a>
-<button id="mb" aria-label="Menu" aria-expanded="false">Menu</button>
+
+<a class="logo" href="index.html">
+Tharun <span>Tech Hub</span>
+</a>
+
+<button id="mb" aria-label="Menu" aria-expanded="false">
+Menu
+</button>
 
 <ul class="links" id="nav">
 <li><a href="index.html">Home</a></li>
@@ -29,20 +43,89 @@
 <li><a href="about.html">About</a></li>
 <li><a href="contact.html" class="on" aria-current="page">Contact</a></li>
 </ul>
+
 </div>
 </header>
 
+<!-- MAIN CONTENT -->
 <main>
 <section class="page">
+
 <div class="wrap">
 
 <h1>Contact</h1>
-<p>Questions, feedback or ideas for a tutorial? Feel free to contact me.</p>
 
+<p>
+Questions, feedback or ideas for a tutorial?
+Feel free to contact me.
+</p>
+
+<!-- CONTACT FORM -->
+<div class="card" style="margin:30px 0;">
+
+<h2>Send Me a Message</h2>
+
+<p>
+Have a question, suggestion or collaboration idea?
+I'd love to hear from you.
+</p>
+
+<form action="https://formspree.io/f/xwllzglz" method="POST">
+
+<div>
+<label for="name">Your Name</label>
+<input
+type="text"
+id="name"
+name="name"
+placeholder="Enter your name"
+required>
+</div>
+
+<div>
+<label for="email">Your Email</label>
+<input
+type="email"
+id="email"
+name="email"
+placeholder="Enter your email address"
+required>
+</div>
+
+<div>
+<label for="subject">Subject</label>
+<input
+type="text"
+id="subject"
+name="subject"
+placeholder="Enter subject"
+required>
+</div>
+
+<div>
+<label for="message">Your Message</label>
+<textarea
+id="message"
+name="message"
+rows="5"
+placeholder="Write your message here..."
+required></textarea>
+</div>
+
+<button class="btn p" type="submit">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+<!-- CONTACT DETAILS -->
 <div class="grid">
 
 <div class="card">
 <h3>Email</h3>
+
 <p>
 <a href="mailto:tharunsiddha@gmail.com">
 tharunsiddha@gmail.com
@@ -52,8 +135,12 @@ tharunsiddha@gmail.com
 
 <div class="card">
 <h3>WhatsApp</h3>
+
 <p>
-<a href="https://wa.me/916309573417" target="_blank" rel="noopener noreferrer">
+<a
+href="https://wa.me/916309573417"
+target="_blank"
+rel="noopener noreferrer">
 +91 6309573417
 </a>
 </p>
@@ -61,8 +148,12 @@ tharunsiddha@gmail.com
 
 <div class="card">
 <h3>LinkedIn</h3>
+
 <p>
-<a href="https://www.linkedin.com/in/tharun-sai25/" target="_blank" rel="noopener noreferrer">
+<a
+href="https://www.linkedin.com/in/tharun-sai25"
+target="_blank"
+rel="noopener noreferrer">
 Connect with me on LinkedIn
 </a>
 </p>
@@ -74,12 +165,19 @@ Connect with me on LinkedIn
 </section>
 </main>
 
+<!-- FOOTER -->
 <footer>
+
 <div class="wrap fg">
 
 <div>
-<a class="logo" href="index.html">Tharun <span>Tech Hub</span></a>
-<p>Independent guides to AI tools and productivity software.</p>
+<a class="logo" href="index.html">
+Tharun <span>Tech Hub</span>
+</a>
+
+<p>
+Independent guides to AI tools and productivity software.
+</p>
 </div>
 
 <ul>
