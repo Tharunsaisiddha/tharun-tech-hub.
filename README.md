@@ -1,3 +1,4 @@
+
 # Tharun Tech Hub
 
 A modern, responsive technology website built using HTML, CSS and JavaScript.
@@ -12,6 +13,9 @@ Tharun Tech Hub provides educational content about:
 
 ## Website
 
+[Visit Tharun Tech Hub](https://tharunsaisiddha.github.io/tharun-tech-hub/)
+
+**Live Website URL:**  
 https://tharunsaisiddha.github.io/tharun-tech-hub/
 
 ## Technologies Used
@@ -39,7 +43,7 @@ https://tharunsaisiddha.github.io/tharun-tech-hub/
 
 The contact form uses Formspree to receive messages.
 
-Formspree endpoint:
+**Formspree Endpoint:**
 
 `https://formspree.io/f/xwllzglz`
 
@@ -49,9 +53,9 @@ To update the endpoint, change the form action or the `data-endpoint` attribute 
 
 ## Contact Information
 
-- Email: tharunsiddha@gmail.com
-- WhatsApp: +91 6309573417
-- LinkedIn: https://www.linkedin.com/in/tharun-sai25/
+- **Email:** tharunsiddha@gmail.com
+- **WhatsApp:** +91 6309573417
+- **LinkedIn:** https://www.linkedin.com/in/tharun-sai25/
 
 ## Deployment
 
@@ -77,6 +81,6 @@ The JavaScript script adds the appropriate `rel="sponsored"` attribute to affili
 
 ## Website Owner
 
-Tharun Siddha
+**Tharun Siddha**
 
 Tharun Tech Hub – Independent guides to AI tools and productivity software.
